@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
 class PeriodProvider with ChangeNotifier {
-  DateTime _periodDate = DateTime.now();
+  DateTime _periodDate = DateTime.now().add(Duration(days: 30));
 
   DateTime get periodDate => _periodDate;
 

@@ -1,10 +1,13 @@
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:period_and_pregnancy_app/pages/homepage.dart';
 import 'package:period_and_pregnancy_app/provider/period_provider.dart';
 import 'package:period_and_pregnancy_app/provider/pregnancy_provider.dart';
 import 'package:provider/provider.dart';
 
 void main() {
+  WidgetsFlutterBinding.ensureInitialized();
+  SystemChrome.setPreferredOrientations([DeviceOrientation.portraitUp]);
   runApp(MyApp());
 }
 
