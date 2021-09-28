@@ -156,7 +156,7 @@ class _PregnancyResultState extends State<PregnancyResult> {
                                 height: 30,
                                 child: FittedBox(
                                   child: Text(
-                                    "Best Days to get Pregnant are bitween",
+                                    "Best Days to get Pregnant are bitween:",
                                     style: TextStyle(
                                         fontSize: 27,
                                         color: Colors.black,
